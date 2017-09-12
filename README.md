@@ -20,5 +20,6 @@ It will show up in your Applications folder (``/Applications``).
 ./generate.sh [iterm|terminal]
 ````
 
-2. Drag the app to your finder Toolbar, like this:  
-TODO: image(s) or animated gif
+2. Right click a blank area of the Finder toolbar, select "Customize Toolbar", 
+drag the app into the toolbar area where you want it, and click "Done".  
+TODO: animated gif
