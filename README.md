@@ -20,6 +20,9 @@ It will show up in your Applications folder (``/Applications``).
 ./generate.sh [iterm|terminal]
 ````
 
-2. Right click a blank area of the Finder toolbar, select "Customize Toolbar", 
-drag the app into the toolbar area where you want it, and click "Done".  
-TODO: animated gif
+2. Click and drag the app into the toolbar area where you want it.  On newer
+versions of OS X, you have to hold down the Command (⌘) key until a green plus 
+sign (+) appears.
+![alt text](media/add_icon_75_transparent.gif "Add the app to the Finder toolbar")
+(This shows the process for the "Open iTerm Here..." app, 
+but it's the same for the "Open Terminal Here..." app)
