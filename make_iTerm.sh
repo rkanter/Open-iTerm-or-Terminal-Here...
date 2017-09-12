@@ -13,7 +13,8 @@
 osacompile -o /Applications/Open\ iTerm\ Here....app applescripts/iTerm.scpt
 
 # Copy over the iTerm icon
-cp -f /Applications/iTerm.app/Contents/Resources/AppIcon.icns /Applications/Open\ iTerm\ Here....app/Contents/Resources/applet.icns
+itermPath=$(osascript -e "tell application \"Finder\" to return  (POSIX path of (path to application \"iTerm\"))")
+cp -f ${itermPath}Contents/Resources/AppIcon.icns /Applications/Open\ iTerm\ Here....app/Contents/Resources/applet.icns
 
 # Set internal app property to make it not show up in the Dock
 # Otherwise, it looks weird because it opens and then closes <1 second later
