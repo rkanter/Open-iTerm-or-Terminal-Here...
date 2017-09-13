@@ -1,10 +1,15 @@
 Open iTerm or Terminal Here...
 ==============================
 
-This project generates an Applescript-based app that you can put in your Finder 
+This project generates an Applescript app that you can put in your Finder 
 toolbar which will open an iTerm or Terminal tab at the current directory.
 
-TODO: screenshot of finder toolbar (one for each iTerm and Terminal?)
+![alt text](media/iterm_toolbar.png "iTerm Toolbar")
+
+![alt text](media/terminal_toolbar.png "Terminal Toolbar")
+
+I know there's already a ton of these types of apps out there, but I wanted
+to make my own anyway :)
 
 Prerequisites
 -------------
