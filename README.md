@@ -39,5 +39,6 @@ Done
 versions of OS X, you have to hold down the Command (⌘) key until a green plus 
 sign (+) appears.
 ![alt text](media/add_icon_75_transparent.gif "Add the app to the Finder toolbar")
-(This shows the process for the "Open iTerm Here..." app, 
+
+(This gif shows the process for the "Open iTerm Here..." app, 
 but it's the same for the "Open Terminal Here..." app)
