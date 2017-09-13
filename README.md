@@ -16,8 +16,18 @@ Setup
 
 1. Generate the "Open iTerm Here..." or "Open Terminal Here..." app.  
 It will show up in your Applications folder (``/Applications``).
-````
+````bash
 ./generate.sh [iterm|terminal]
+````
+For example:
+````bash
+$ ./generate.sh iterm
+Preparing to generate 'Open iTerm Here...' app
+Putting AppleScript into place
+Setting the icon
+Reticulating splines
+Opening app location in Finder
+Done
 ````
 
 2. Click and drag the app into the toolbar area where you want it.  On newer
