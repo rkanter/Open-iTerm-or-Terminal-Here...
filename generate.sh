@@ -2,9 +2,6 @@
 
 # TODO:
 # Make the Terminal applescript do a new tab instead of a new window
-# what if the file already exists?
-# error handling
-# clean up, etc
 
 
 generateApp() {
