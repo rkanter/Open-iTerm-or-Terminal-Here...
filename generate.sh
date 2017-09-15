@@ -12,7 +12,7 @@ generateApp() {
 
   # Bundle the iTerm script into an Application
   echo "Putting AppleScript into place"
-  osacompile -o /Applications/Open\ ${name}\ Here....app applescripts/${name}.scpt
+  osacompile -o /Applications/Open\ ${name}\ Here....app applescripts/${name}.applescript
 
   # Copy over the legit icon
   echo "Setting the icon"
