@@ -1,9 +1,5 @@
 #!/bin/bash
 
-# TODO:
-# Make the Terminal applescript do a new tab instead of a new window
-
-
 generateApp() {
   name=$1
   iconName=$2

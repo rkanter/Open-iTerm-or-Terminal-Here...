@@ -2,7 +2,7 @@ Open iTerm or Terminal Here...
 ==============================
 
 This project generates an Applescript app that you can put in your Finder 
-toolbar which will open an iTerm or Terminal tab at the current directory.
+toolbar which will open an iTerm tab or Terminal window at the current directory.
 
 ![alt text](media/iterm_toolbar.png "iTerm Toolbar")
 
@@ -13,7 +13,7 @@ to make my own anyway :)
 
 Prerequisites
 -------------
-- If using iTerm, requires at least version TODO, and it should be installed 
+- If using iTerm, requires at least version 3, and it should be installed
 - Tested on Mac OS X Sierra (10.12), but should likely work on earlier versions
 
 Setup
@@ -42,3 +42,8 @@ sign (+) appears.
 
 (This gif shows the process for the "Open iTerm Here..." app, 
 but it's the same for the "Open Terminal Here..." app)
+
+Known Limitations
+-----------------
+- There isn't a clean reliable way to open a new tab in Terminal via Applescript,
+hence why the Terminal version opens a new window instead of a new tab.
