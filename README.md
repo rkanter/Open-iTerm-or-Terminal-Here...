@@ -21,11 +21,11 @@ Setup
 
 1. Generate the "Open iTerm Here..." or "Open Terminal Here..." app.  
 It will show up in your Applications folder (``/Applications``).
-````bash
+````
 ./generate.sh [iterm|terminal]
 ````
 For example:
-````bash
+````
 $ ./generate.sh iterm
 Preparing to generate 'Open iTerm Here...' app
 Putting AppleScript into place
