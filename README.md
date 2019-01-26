@@ -14,7 +14,6 @@ to make my own anyway :)
 Prerequisites
 -------------
 - If using iTerm, requires at least version 3
-- Tested on Mac OS X Sierra (10.12), but should likely work on earlier versions
 
 Setup
 -----
