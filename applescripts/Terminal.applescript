@@ -7,7 +7,17 @@ tell application "Terminal"
 		tell application "System Events"
 			tell application process "Terminal"
 				set frontmost to true
-				keystroke "t" using command down
+				try
+					keystroke "t" using command down
+				on error errMsg
+					set msg to "Error: " & errMsg & "
+
+This probably means that you're using Mojave and you will need to add this app to the \"Accessibility\" section in the \"Privacy\" tab of the \"Security & Privacy\" System Preferences.
+
+Please see the \"Mojave\" section of the README for more details"
+					display dialog msg buttons {"OK"} with icon caution
+					return
+				end try
 			end tell
 		end tell
 		do script "cd " & thePath & " && clear" in last tab of front window
