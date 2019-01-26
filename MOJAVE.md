@@ -21,4 +21,5 @@ In that case, you'll need to add the "Open Terminal Here..." app to the "Accessi
 the "Security & Privacy" System Preferences.  This is required because the app simulates pressing cmd+t to open a new
 tab in Terminal.  Here's what that looks like:
 ![alt text](media/mojave/security_pref_pane.png "Security System Preferences")
+
 Make sure the checkbox is selected.
