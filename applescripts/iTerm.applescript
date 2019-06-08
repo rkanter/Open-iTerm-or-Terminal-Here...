@@ -2,14 +2,14 @@ tell application "Finder"
 	if (count of windows) > 0 then
 		set thePath to target of front window
 	else
-		display dialog "There are no open Finder windows." with icon caution buttons {"OK"} default button "OK"
+		display dialog "There are no open Finder windows." with icon caution buttons {"OK"} with title "Open iTerm Here..."
 		return
 	end if
 end tell
 
 if not (exists thePath) then
 	tell application "Finder" to set theName to name of front window
-	display dialog "The location of the Finder window \"" & theName & "\" is not a real location (e.g. smart folder, search, network, trash, etc) and cannot opened in iTerm." with icon caution buttons {"OK"} default button "OK"
+	display dialog "The location of the Finder window \"" & theName & "\" is not a real location (e.g. smart folder, search, network, trash, etc) and cannot opened in iTerm." with icon caution buttons {"OK"} with title "Open iTerm Here..."
 	return
 end if
 set thePath to quoted form of POSIX path of (thePath as alias)
