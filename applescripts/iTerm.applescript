@@ -1,5 +1,10 @@
-tell application "Finder" to set thePath to target of front window as alias
-set thePath to quoted form of POSIX path of thePath
+tell application "Finder" to set thePath to target of front window
+if not (exists thePath) then
+	tell application "Finder" to set theName to name of front window
+	display dialog "The location of the Finder window \"" & theName & "\" is not a real location (e.g. smart folder, search, network, trash, etc) and cannot opened in iTerm." with icon caution buttons {"OK"} default button "OK"
+	return
+end if
+set thePath to quoted form of POSIX path of (thePath as alias)
 
 tell application "iTerm"
 	-- Handles the case where iTerm is running but has no windows
