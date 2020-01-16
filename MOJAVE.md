@@ -1,14 +1,14 @@
-Using Mac OS X 10.14 Mojave?
-============================
+Using Mac OS X 10.14 Mojave or later?
+=====================================
 
-Max OS X 10.14 Mojave made a lot of changes to OS X's security, including more restrictions on AppleScripts.
+Mac OS X 10.14 Mojave made a lot of changes to OS X's security, including more restrictions on AppleScripts.
 
 While more
 security is good, Apple made it somewhat difficult to deal with.  You can find more technical details about the issue
 and workaround in [Issue #1](https://github.com/rkanter/Open-iTerm-or-Terminal-Here.../issues/1#issuecomment-457107366).
 
 For Terminal and iTerm
-------------------
+----------------------
 The first time you run the app (either for iTerm or Terminal), you may see one or more messages like this:
 ![alt text](media/mojave/security_warning.png "Security Warning")
 Simply click "OK" and this shouldn't happen on subsequent launches.

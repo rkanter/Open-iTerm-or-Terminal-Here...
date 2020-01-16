@@ -43,6 +43,6 @@ sign (+) appears.
 but it's the same for the "Open Terminal Here..." app)
 
 
-Using Mac OS X 10.14 Mojave?
-----------------------------
-The app works, but there's some useful info [here](MOJAVE.md).
+Using Mac OS X 10.14 Mojave or later?
+-------------------------------------
+The app works, but there's some useful security info [here](MOJAVE.md).
